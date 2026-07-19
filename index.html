@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework 21.1 About Jackie Chan</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     
@@ -15,9 +18,10 @@
             </nav>
         </header>
         <img src="./photo/0_4.jpg" align="left" hspace="20" > 
-<h1>  Джекі Чан </h1>
-        <font size="5"> 
-             Народився в Гонконгу в бідній родині і в дитинстві потрапив до Академії драматичного мистецтва.<br>
+<h1 id="name">  Джекі Чан </h1>
+        
+          <!--  <font size="5">  фонт замінив через стиль-->
+            <p>  Народився в Гонконгу в бідній родині і в дитинстві потрапив до Академії драматичного мистецтва.<br>
               Там він роками освоював жорстку школу кунг-фу, акробатики, вокалу та сценічної майстерності.<br>
                На початку кар'єри він працював каскадером і навіть перетинався на знімальному майданчику з легендарним Брюсом Лі.<br>
                 Після смерті Лі продюсери намагалися зробити з Джекі його копію, але цей образ йому зовсім не підходив.<br>
@@ -32,16 +36,29 @@
                       У 2016 році видатний внесок артиста в кінематограф був відзначений почесною премією «Оскар».<br>
                       Має свої зірки  на <a href="./pages/gallery.html #Hands" target ="_blank">Авеню Зірок у Гонконгу</a>  та на <a href="./pages/gallery.html #Hollywood" target ="_blank" >Аллєї Зірок У Голлівуді</a>.<br>
                        Джекі активно займається благодійністю, є послом доброї волі ЮНІСЕФ та допомагає нужденним.<br>
-                        Сьогодні Джекі Чан залишається живою легендою, чий неповторний стиль надихає мільйони людей по всьому світу.<br>
+                        Сьогодні Джекі Чан залишається живою легендою, чий неповторний стиль надихає мільйони людей по всьому світу.
+                        </p>
+                         <br>
+                         
 
-        </font>
-        <h2>Найвідоміші фільми: </h2>
-       <ul type="circle">
-    <li> Rush Hour, 1998 </li>
-    <li> Armour of God, 1986 </li>
-    <li> Police Story, 1985  </li>
-    <li> Drunken Master, 1978  </li>
-    <li> Rumble in the Bronx, 1995  </li>
-</ul>
+        <!-- </font>  -->
+         <!-- дофіга бр щоб зсунути список униз, хотів зробити 2 списка поряд з фото -->
+         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2 id="films">Найвідоміші фільми: </h2>
+        <!-- 1 спосіб, красимо кожен окремо ( макс. приорітет)-->
+    <ul type="circle">
+    <li> <p style="color: rgb(201, 113, 13);"> <b> Rush Hour, 1998 </b> </p> </li>
+    <li> <p style="color: rgb(201, 113, 13);"> <b> Armour of God, 1986 </b> </p> </li>
+    <li> <p style="color: rgb(201, 113, 13);"> <b> Police Story, 1985  </b> </p> </li>
+    <li> <p style="color: rgb(201, 113, 13);"> <b> Drunken Master, 1978  </b> </p> </li>
+    <li> <p style="color: rgb(201, 113, 13);"> <b> Rumble in the Bronx, 1995  </b> </p> </li>
+    </ul>
+        <ul class="films2" type="circle" >
+    <li>  <p><b> Project A, 1983 </b> </p> </li>
+    <li>  <p><b> Shanghai Noon (2000) </b> </p> </li>
+    <li>  <p><b> The Tuxedo (2002)  </b> </p> </li>
+    <li>  <p><b>  Around the World in 80 Days (2004) </b> </p> </li>
+    <li>  <p><b>  The Karate Kid (2010) </b></p>  </li>
+    </ul>
 </body>
 </html>
